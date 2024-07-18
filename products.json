@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Casca Strato",
+    "imageUrl": "https://cdn.4camping.ro/files/photos/1600/2/21017929-casca-de-alpinism-petzl-strato-galben.webp",
+    "price": 479.9,
+    "details": "Conceputa cu materiale de ultima generatie si tehnologii inovatoare, Strato imbina durabilitatea cu ergonomia pentru a asigura o performanta excelenta.",
+    "category": "Alpinism",
+    "manufacturer": "Petlz",
+    "id": "1"
+  },
+  {
+    "name": "Vizir Shadow",
+    "imageUrl": "https://media.8a.eu/media/catalog/product/o/s/oslona_petzl_vizir_shadow_vertex_strato_1626349075_5def.jpg",
+    "price": 279.9,
+    "details": "Vizor protector, modular, compatibil cu castile Vertex si Strato, Vizir Shadow ofera atat protectie in zona fetei, precum si protectie solara.",
+    "category": "Alpinism",
+    "manufacturer": "Petzl",
+    "id": "2"
+  },
+  {
+    "name": "Ham Falcon Ascent 1 70-93 cm",
+    "imageUrl": "https://cdn.maxlife.ro/images/ml_products/img_202205062330/152364/full/petzl-ham-falcon-198259.jpg",
+    "price": 929.9,
+    "details": "Ham usor si confortabil pentru operatiuni de salvare si lucrari care implica ascensiunea pe coarda.",
+    "category": "Alpinism",
+    "manufacturer": "Petzl",
+    "id": "3"
+  },
+  {
+    "name": "Ham Atlas Belt",
+    "imageUrl": "https://www.alpinmag.ro/image/cache/catalog/alpinism/hamuri/rock-empire-Skill-Belt-800x800.jpg",
+    "price": 574.9,
+    "details": "Ham Atlas Belt cu catarame de otel cu eliberare rapida, pentru o ajustare rapida si facila a hamului.",
+    "category": "Alpinism",
+    "manufacturer": "Rock empire",
+    "id": "4"
+  },
+  {
+    "name": "Ham Atlas Uni",
+    "imageUrl": "https://cdn.niponino.ro/images/pdbox1000w/1/86981.jpg",
+    "price": 839.9,
+    "details": "Un ham de munca confortabil, complet echipat, proiectat pentru a fi folosit chiar si in cele mai inacesibile locuri.",
+    "category": "Alpinism",
+    "manufacturer": "Rock empire",
+    "id": "5"
+  },
+  {
+    "name": "Ham Eiger Speed",
+    "imageUrl": "https://media.8a.eu/media/catalog/product/M/a/Mammut_Eiger_Speed_Harness_white_504_790b.jpg",
+    "price": 319.9,
+    "details": "Hamul Mammut Eiger Speed reprezinta un produs inovator si de inalta calitate destinat alpinismului si activitatilor outdoor.",
+    "category": "Alpinism",
+    "manufacturer": "Mammut",
+    "id": "6"
+  },
+  {
+    "name": "Carabiniera Freino Z",
+    "imageUrl": "https://images.mtbiker.sk/eshop/big/M042BA00-FREINO-Z-TL_LowRes_622b417e70361.jpeg",
+    "price": 249.9,
+    "details": "Modelul Freinzo Z Triact-Lock are o frana suplimentara care ajuta la cresterea fortei de frecare in timpul coborarilor.",
+    "category": "Alpinism",
+    "manufacturer": "Petzl",
+    "id": "7"
+  },
+  {
+    "name": "Carabiniera D Asymm 40kn",
+    "imageUrl": "https://cdn.shoepping.at/medias/sys_master/cloud-images-1621-21070322/hc7/h13/14805485912094/1200Wx1200H-TN11AK-I/austrialpin-d-asymm-screw-carabiner-1681610518632-992.jpeg",
+    "price": 129.9,
+    "details": "Carabiniera rezistenta din otel inoxidabil cu screwlock. Dimensiunea sa permite o operare prietenoasa chiar si atunci cand purtati manusi.",
+    "category": "Alpinism",
+    "manufacturer": "Austrialpin",
+    "id": "8"
+  },
+  {
+    "name": "Carabiniera HMS Mini.Mi 22kn",
+    "imageUrl": "https://www.bfgcdn.com/1500_1500_90/323-0214-0111/austrialpin-hms-minimi-alu-schrauber-hms-carabiner.jpg",
+    "price": 84.9,
+    "details": "Carabinier cu autoblocare in 2 directii. Pentru deschidere: rasuciti si impingeti.",
+    "category": "Alpinism",
+    "manufacturer": "Austrialpin",
+    "id": "9"
+  },
+  {
+    "name": "Carabiniera Smart HMS",
+    "imageUrl": "https://sportano.ro/img/986c30c27a3d26a3ee16c136f92f4ff5/7/6/7613357873819_20-jpg/mammut-smart-hms-2-0-screwgate-carabiner-gri-583294.jpg",
+    "price": 79.9,
+    "details": "Carabiniera HMS cu mecanism de siguranta pentru a preveni incarcatura laterala.",
+    "category": "Alpinism",
+    "manufacturer": "Mammut",
+    "id": "10"
+  },
+  {
+    "name": "Cort Heyerdhal Double Cab",
+    "imageUrl": "https://www.allmountain.ro/poze/cort-the-north-face-heyerdahl-double-cab-17-verde.jpg",
+    "price": 1399.9,
+    "details": "Cort pentru 2 persoane, foarte spatios, destinat turelor dificile pe munte, care va asigura protectie si comfort in cele mai aspre conditii de vreme.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "The North Face",
+    "id": "11"
+  },
+  {
+    "name": "Cort Hudson",
+    "imageUrl": "https://i.sportisimo.com/products/images/1444/1444299/700x700/trimm-hudson_0.jpg",
+    "price": 749.9,
+    "details": "Cort pentru 3-4 persoane, cu o constructie clasica si cu o absida suficienta pentru un camping confortabil.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Trimm",
+    "id": "12"
+  },
+  {
+    "name": "Cort Comfort II",
+    "imageUrl": "https://i.sportisimo.com/products/images/663/663660/700x700/trimm-comfort-ii_0.jpg",
+    "price": 2099.9,
+    "details": "Cort mare, cu doua dormitoare, pentru intreaga familie. De asemenea, este inclusa o captuseala separata detasabila pentru vestibul.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Trimm",
+    "id": "13"
+  },
+  {
+    "name": "Sac de Dormit Kompakt MTI",
+    "imageUrl": "https://www.rocknsnow.eu//storage/products/3523/Mammut_7613357199261_1-1313x1313.jpeg",
+    "price": 849.9,
+    "details": "Sacul de dormit Kompakt 3 sezoane este deja devenit legenda datorita premiilor castigate avand cel mai mic volum la impachetare din categoria sa.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Mammut",
+    "id": "14"
+  },
+  {
+    "name": "Sac de Dormit Flame FM0 170R",
+    "imageUrl": "https://cdn.4camping.ro/files/photos/1600/9/940ae1a1-sac-de-dormit-sea-to-summit-flame-fmii-gri.webp",
+    "price": 1049.9,
+    "details": "Ultrausori si tehnici, sacii Sea To Summit din seria Flame ™ sunt conceputi pentru a va tine de cald, reducand in acelasi timp din greutate si dimensiune.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Sea To Summit",
+    "id": "15"
+  },
+  {
+    "name": "Sac de Dormit Balance Wide 195R",
+    "imageUrl": "https://cdn.4camping.ro/files/photos/1600/5/57bfeca1-sac-de-dormit-trimm-balance-wide-195-albastru-sea-blue-mid-blue.webp",
+    "price": 419.9,
+    "details": "Datorita utilizarii unei umpluturi de inalta calitate, si anume a fibrei Thermolite Qualo cu 7 celule, acest sac de dormit este potrivit pentru utilizarea pe 3 sezoane.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Trimm",
+    "id": "16"
+  },
+  {
+    "name": "Sac de dormit Perform Down Bag 195CM",
+    "imageUrl": "https://cdn.niponino.ro/images/w1200h1200-webp/2/97692.webp",
+    "price": 1599.9,
+    "details": "Datorita izolatiei de puf premium si o constructie meticuloasa, Mammut Perform Down iti ofera caldura si confort chiar si in cele mai infrigurate nopti.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Mammut",
+    "id": "17"
+  },
+  {
+    "name": "Lanterna Swift RL",
+    "imageUrl": "https://www.zumont.ro/22321-large_default/lanterna-frontala-petzl-swift-rl-pro-black.jpg",
+    "price": 599.9,
+    "details": "Lampa frontala compacta Petzl, ultra-puternica si reincarcabila cu tehnologie REACTIVE LIGHTING®.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Petzl",
+    "id": "18"
+  },
+  {
+    "name": "Lanterna Frontala HM61R V2.0",
+    "imageUrl": "https://images-knifestock-cdn.rshop.sk/retDetailPhoto/products/5f6c8238cccd21f45996f50fdb48aabc.png",
+    "price": 479.9,
+    "details": "Lanterna frontala Fenix HM61R V2.0 reprezinta o solutie de iluminare de incredere si versatila, perfect adaptata activitatilor outdoor si profesionale.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Fenix",
+    "id": "19"
+  },
+  {
+    "name": "Lanterna Frontala UT27 Reincarcabila 800 Lumeni",
+    "imageUrl": "https://lumeacutitelor.ro/cdn/shop/files/nitecore_ut27_lanterna_frontala_reincarcabila_usb-c_800_lumeni_160_metri_www.easylight.ro_375x.jpg?v=1712430008",
+    "price": 349.9,
+    "details": "Lnterna frontala Nitecore UT27 este rezistenta la praf si apa conform IP66 si la impactul de la o inaltime de 1 metru.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Nitecore",
+    "id": "20"
+  },
+  {
+    "name": "Lanterna Frontala Duo Z2",
+    "imageUrl": "https://cdn.vexio.ro/images/products/img_202403070906/2589706/normal/petzl-petzl-duo-z2-black-yellow-e80ahb-5191582.jpg",
+    "price": 899.9,
+    "details": "Lanterna frontala puternica, rezistenta la apa si durabila, cu functie antiorbire FACE2FACE. 430 lumeni.",
+    "category": "Camping si Drumetii",
+    "manufacturer": "Petzl",
+    "id": "21"
+  },
+  {
+    "name": "Schiuri Laser CX + Legatura",
+    "imageUrl": "https://www.freeride.com/img/review/original/12908_pic1b.jpg?0",
+    "price": 7099.9,
+    "details": "Stockli Laser CX este un schi foarte sportiv pentru expertii carora le place carving-ul si partiile libere.",
+    "category": "Schi",
+    "manufacturer": "Stockli",
+    "id": "22"
+  },
+  {
+    "name": "Schiuri X-Treme 82",
+    "imageUrl": "https://sportstock.at/wp-content/uploads/2023/09/Neues-Projekt-2023-09-07T123811.787.png",
+    "price": 1499.9,
+    "details": "Schiuri usoare, potrivite pentru schiorii alpinisti care au nevoie de o greutate redusa pentru o urcare mai usoara si, in acelasi timp, de o rigiditate buna pentru o coborare confortabila in orice teren.",
+    "category": "Schi",
+    "manufacturer": "Fischer",
+    "id": "23"
+  },
+  {
+    "name": "Schiuri Race TEAM LT JR",
+    "imageUrl": "https://www.stoeckli.ch/media/catalog/product/s/t/standard_main_image-standard_ski-41080325P-LT.png?optimize=medium&fit=bounds&height=411&width=2256&format=jpeg",
+    "price": 1349.9,
+    "details": "Race team LT face ca invatarea schiului sa fie distractiva pentru juniori. Cu Softflex-ul integrat suplimentar si rocker-ul usor, copiilor le este usor sa faca progrese rapide.",
+    "category": "Schi",
+    "manufacturer": "Stockli",
+    "id": "24"
+  },
+  {
+    "name": "Ochelari Schi Unisex Pulse Spectron 2",
+    "imageUrl": "https://www.tradeinn.com/f/13936/139369140/julbo-pulse-ski-goggles.jpg",
+    "price": 349.9,
+    "details": "Conceputi pentru a se potrivi perfect cu o casca, acestia combina usurinta si confortul datorita unei rame minimaliste Frameless si a spumelor de inalta calitate.",
+    "category": "Schi",
+    "manufacturer": "Julbo",
+    "id": "25"
+  },
+  {
+    "name": "Ochelari Unisex Sharp Spectron 2",
+    "imageUrl": "https://muzikercdn.com/uploads/products/15541/1554172/thumb_d_gallery_2e8a398d.jpg",
+    "price": 499.9,
+    "details": "Ochelari unisex pentru schi Julbo Sharp cu lentile Spectron Cat. 2 nu va vor dezamagi nici in cea mai luminoasa zi pe partie!",
+    "category": "Schi",
+    "manufacturer": "Julbo",
+    "id": "26"
+  },
+  {
+    "name": "Ochelari Schi FX-70 Carbonic",
+    "imageUrl": "https://www.sumashop.ro/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/o/c/ochelari-schi-casco-fx-70-carbonic-black-orange.jpg",
+    "price": 749.9,
+    "details": "Ochelarii de schi Casco FX70 asigura confortul si siguranta in timpul activitatilor sportive intense.",
+    "category": "Schi",
+    "manufacturer": "Casco",
+    "id": "27"
+  },
+  {
+    "name": "Ochelari Schi Raffish JR",
+    "imageUrl": "https://gomagcdn.ro/domains/tracksport.ro/files/product/large/ochelari-schi-raffish-blue-2337-8458.jpg",
+    "price": 214.9,
+    "details": "Ochelarii de protectie Raffish junior ofera o vedere perfecta asupra intregului munte.",
+    "category": "Schi",
+    "manufacturer": "Rossignol",
+    "id": "28"
+  },
+  {
+    "name": "Rucsac Schi Femei Nirvana 35L",
+    "imageUrl": "https://cdn.niponino.ro/images/w1200h1200-webp/5/176755.webp",
+    "price": 899.9,
+    "details": "Rucsacul perfect pentru coborari exceptionale, adaptat femeilor, care asigura confort si suport, fabricat din materiale reciclate.",
+    "category": "Schi",
+    "manufacturer": "Mammut",
+    "id": "29"
+  },
+  {
+    "name": "Rucsac Barbati Guide 34L+8L",
+    "imageUrl": "https://cdn.niponino.ro/images/w1200h1200-webp/1/189001.webp",
+    "price": 999.9,
+    "details": "Cu un design ingenios si performante remarcabile, Deuter Guide 34+8 iti ofera o capacitate extinsa de 8 litri.",
+    "category": "Schi",
+    "manufacturer": "Deuter",
+    "id": "30"
+  }
+]
