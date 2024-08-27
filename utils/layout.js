@@ -6,10 +6,12 @@ export function mapProductToCard(product) {
                   <img src=${product.imageUrl} width="150px"/>
                </a>
 					<p class="card-price">${product.price} lei</p>
+               <button class="btn add-to-cart" data-id=${product.id}>
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </button>
 				</div>
       		`;
 }
-
 export function mapProductToAdminTableRow(product) {
 	return `
             <tr>

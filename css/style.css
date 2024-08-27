@@ -104,6 +104,28 @@ body {
     border-radius: 10px;
 }
 
-.product-image {
+.product-image, 
+.btn {
     cursor: pointer;
+}
+
+.add-to-cart {
+        background-color: white;
+        border: none;
+    }
+
+.w-150 {
+    width: 150px;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid gray;
 }
