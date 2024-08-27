@@ -64,8 +64,6 @@ body {
     padding: 50px;
 }
 
-
-
 .wrap {
     flex-wrap: wrap;
 }
@@ -104,4 +102,8 @@ body {
     padding: 15px 5px;
     border: 2px solid var(--secondary-color);
     border-radius: 10px;
+}
+
+.product-image {
+    cursor: pointer;
 }
