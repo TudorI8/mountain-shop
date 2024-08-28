@@ -5,13 +5,18 @@ export function mapProductToCard(product) {
                <a href="../pages/details.html?id=${product.id}">
                   <img src=${product.imageUrl} width="150px"/>
                </a>
-					<p class="card-price">${product.price} lei</p>
-               <button class="btn add-to-cart" data-id=${product.id}>
-                  <i class="fa-solid fa-cart-shopping"></i>
-               </button>
+					<p class="card-price">${product.price.toFixed(2)} lei</p>
+               <button class="btn add-to-cart" 
+                data-id="${product.id}"
+                data-price="${product.price.toFixed(2)}"
+                data-name="${product.name}"
+                data-image="${product.imageUrl}">
+               <i class="fa-solid fa-cart-shopping"></i>
+            </button>
 				</div>
       		`;
 }
+
 export function mapProductToAdminTableRow(product) {
 	return `
             <tr>

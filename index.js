@@ -13,7 +13,7 @@ async function displayAllProducts() {
 		addToCartButtons.forEach((button) => {
 		button.addEventListener('click', () => {
 			const productId = button.getAttribute('data-id');
-			const price = button.getAttribute('data-price');
+			const price = parseFloat(button.getAttribute('data-price'));
 			const name = button.getAttribute('data-name');
 			const imageUrl = button.getAttribute('data-image');
 

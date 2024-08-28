@@ -6,6 +6,7 @@
     "details": "Conceputa cu materiale de ultima generatie si tehnologii inovatoare, Strato imbina durabilitatea cu ergonomia pentru a asigura o performanta excelenta.",
     "category": "Alpinism",
     "manufacturer": "Petlz",
+    "stock": "12",
     "id": "1"
   },
   {
@@ -15,6 +16,7 @@
     "details": "Vizor protector, modular, compatibil cu castile Vertex si Strato, Vizir Shadow ofera atat protectie in zona fetei, precum si protectie solara.",
     "category": "Alpinism",
     "manufacturer": "Petzl",
+    "stock": "15",
     "id": "2"
   },
   {
@@ -24,6 +26,7 @@
     "details": "Ham usor si confortabil pentru operatiuni de salvare si lucrari care implica ascensiunea pe coarda.",
     "category": "Alpinism",
     "manufacturer": "Petzl",
+    "stock": "8",
     "id": "3"
   },
   {
@@ -33,6 +36,7 @@
     "details": "Ham Atlas Belt cu catarame de otel cu eliberare rapida, pentru o ajustare rapida si facila a hamului.",
     "category": "Alpinism",
     "manufacturer": "Rock empire",
+    "stock": "10",
     "id": "4"
   },
   {
@@ -42,6 +46,7 @@
     "details": "Un ham de munca confortabil, complet echipat, proiectat pentru a fi folosit chiar si in cele mai inacesibile locuri.",
     "category": "Alpinism",
     "manufacturer": "Rock empire",
+    "stock": "9",
     "id": "5"
   },
   {
@@ -51,6 +56,7 @@
     "details": "Hamul Mammut Eiger Speed reprezinta un produs inovator si de inalta calitate destinat alpinismului si activitatilor outdoor.",
     "category": "Alpinism",
     "manufacturer": "Mammut",
+    "stock": "10",
     "id": "6"
   },
   {
@@ -60,6 +66,7 @@
     "details": "Modelul Freinzo Z Triact-Lock are o frana suplimentara care ajuta la cresterea fortei de frecare in timpul coborarilor.",
     "category": "Alpinism",
     "manufacturer": "Petzl",
+    "stock": "16",
     "id": "7"
   },
   {
@@ -69,6 +76,7 @@
     "details": "Carabiniera rezistenta din otel inoxidabil cu screwlock. Dimensiunea sa permite o operare prietenoasa chiar si atunci cand purtati manusi.",
     "category": "Alpinism",
     "manufacturer": "Austrialpin",
+    "stock": "20",
     "id": "8"
   },
   {
@@ -78,6 +86,7 @@
     "details": "Carabinier cu autoblocare in 2 directii. Pentru deschidere: rasuciti si impingeti.",
     "category": "Alpinism",
     "manufacturer": "Austrialpin",
+    "stock": "25",
     "id": "9"
   },
   {
@@ -87,6 +96,7 @@
     "details": "Carabiniera HMS cu mecanism de siguranta pentru a preveni incarcatura laterala.",
     "category": "Alpinism",
     "manufacturer": "Mammut",
+    "stock": "30",
     "id": "10"
   },
   {
@@ -96,6 +106,7 @@
     "details": "Cort pentru 2 persoane, foarte spatios, destinat turelor dificile pe munte, care va asigura protectie si comfort in cele mai aspre conditii de vreme.",
     "category": "Camping si Drumetii",
     "manufacturer": "The North Face",
+    "stock": "5",
     "id": "11"
   },
   {
@@ -105,6 +116,7 @@
     "details": "Cort pentru 3-4 persoane, cu o constructie clasica si cu o absida suficienta pentru un camping confortabil.",
     "category": "Camping si Drumetii",
     "manufacturer": "Trimm",
+    "stock": "8",
     "id": "12"
   },
   {
@@ -114,6 +126,7 @@
     "details": "Cort mare, cu doua dormitoare, pentru intreaga familie. De asemenea, este inclusa o captuseala separata detasabila pentru vestibul.",
     "category": "Camping si Drumetii",
     "manufacturer": "Trimm",
+    "stock": "4",
     "id": "13"
   },
   {
@@ -123,6 +136,7 @@
     "details": "Sacul de dormit Kompakt 3 sezoane este deja devenit legenda datorita premiilor castigate avand cel mai mic volum la impachetare din categoria sa.",
     "category": "Camping si Drumetii",
     "manufacturer": "Mammut",
+    "stock": "8",
     "id": "14"
   },
   {
@@ -132,6 +146,7 @@
     "details": "Ultrausori si tehnici, sacii Sea To Summit din seria Flame ™ sunt conceputi pentru a va tine de cald, reducand in acelasi timp din greutate si dimensiune.",
     "category": "Camping si Drumetii",
     "manufacturer": "Sea To Summit",
+    "stock": "6",
     "id": "15"
   },
   {
@@ -141,6 +156,7 @@
     "details": "Datorita utilizarii unei umpluturi de inalta calitate, si anume a fibrei Thermolite Qualo cu 7 celule, acest sac de dormit este potrivit pentru utilizarea pe 3 sezoane.",
     "category": "Camping si Drumetii",
     "manufacturer": "Trimm",
+    "stock": "12",
     "id": "16"
   },
   {
@@ -150,6 +166,7 @@
     "details": "Datorita izolatiei de puf premium si o constructie meticuloasa, Mammut Perform Down iti ofera caldura si confort chiar si in cele mai infrigurate nopti.",
     "category": "Camping si Drumetii",
     "manufacturer": "Mammut",
+    "stock": "5",
     "id": "17"
   },
   {
@@ -159,6 +176,7 @@
     "details": "Lampa frontala compacta Petzl, ultra-puternica si reincarcabila cu tehnologie REACTIVE LIGHTING®.",
     "category": "Camping si Drumetii",
     "manufacturer": "Petzl",
+    "stock": "10",
     "id": "18"
   },
   {
@@ -168,6 +186,7 @@
     "details": "Lanterna frontala Fenix HM61R V2.0 reprezinta o solutie de iluminare de incredere si versatila, perfect adaptata activitatilor outdoor si profesionale.",
     "category": "Camping si Drumetii",
     "manufacturer": "Fenix",
+    "stock": "12",
     "id": "19"
   },
   {
@@ -177,6 +196,7 @@
     "details": "Lnterna frontala Nitecore UT27 este rezistenta la praf si apa conform IP66 si la impactul de la o inaltime de 1 metru.",
     "category": "Camping si Drumetii",
     "manufacturer": "Nitecore",
+    "stock": "15",
     "id": "20"
   },
   {
@@ -186,6 +206,7 @@
     "details": "Lanterna frontala puternica, rezistenta la apa si durabila, cu functie antiorbire FACE2FACE. 430 lumeni.",
     "category": "Camping si Drumetii",
     "manufacturer": "Petzl",
+    "stock": "7",
     "id": "21"
   },
   {
@@ -195,6 +216,7 @@
     "details": "Stockli Laser CX este un schi foarte sportiv pentru expertii carora le place carving-ul si partiile libere.",
     "category": "Schi",
     "manufacturer": "Stockli",
+    "stock": "3",
     "id": "22"
   },
   {
@@ -204,6 +226,7 @@
     "details": "Schiuri usoare, potrivite pentru schiorii alpinisti care au nevoie de o greutate redusa pentru o urcare mai usoara si, in acelasi timp, de o rigiditate buna pentru o coborare confortabila in orice teren.",
     "category": "Schi",
     "manufacturer": "Fischer",
+    "stock": "5",
     "id": "23"
   },
   {
@@ -213,6 +236,7 @@
     "details": "Race team LT face ca invatarea schiului sa fie distractiva pentru juniori. Cu Softflex-ul integrat suplimentar si rocker-ul usor, copiilor le este usor sa faca progrese rapide.",
     "category": "Schi",
     "manufacturer": "Stockli",
+    "stock": "6",
     "id": "24"
   },
   {
@@ -222,6 +246,7 @@
     "details": "Conceputi pentru a se potrivi perfect cu o casca, acestia combina usurinta si confortul datorita unei rame minimaliste Frameless si a spumelor de inalta calitate.",
     "category": "Schi",
     "manufacturer": "Julbo",
+    "stock": "15",
     "id": "25"
   },
   {
@@ -231,6 +256,7 @@
     "details": "Ochelari unisex pentru schi Julbo Sharp cu lentile Spectron Cat. 2 nu va vor dezamagi nici in cea mai luminoasa zi pe partie!",
     "category": "Schi",
     "manufacturer": "Julbo",
+    "stock": "12",
     "id": "26"
   },
   {
@@ -240,6 +266,7 @@
     "details": "Ochelarii de schi Casco FX70 asigura confortul si siguranta in timpul activitatilor sportive intense.",
     "category": "Schi",
     "manufacturer": "Casco",
+    "stock": "8",
     "id": "27"
   },
   {
@@ -249,6 +276,7 @@
     "details": "Ochelarii de protectie Raffish junior ofera o vedere perfecta asupra intregului munte.",
     "category": "Schi",
     "manufacturer": "Rossignol",
+    "stock": "18",
     "id": "28"
   },
   {
@@ -258,6 +286,7 @@
     "details": "Rucsacul perfect pentru coborari exceptionale, adaptat femeilor, care asigura confort si suport, fabricat din materiale reciclate.",
     "category": "Schi",
     "manufacturer": "Mammut",
+    "stock": "7",
     "id": "29"
   },
   {
@@ -267,6 +296,7 @@
     "details": "Cu un design ingenios si performante remarcabile, Deuter Guide 34+8 iti ofera o capacitate extinsa de 8 litri.",
     "category": "Schi",
     "manufacturer": "Deuter",
+    "stock": "6",
     "id": "30"
   }
 ]
