@@ -62,11 +62,6 @@ td {
     padding: 10px;
 }
 
-.btn {
-    background-color: transparent;
-    border: none;
-}
-
 #products-table th,
 #products-table td {
     text-align: center;

@@ -15,19 +15,23 @@ document.addEventListener('DOMContentLoaded', () => {
 			const product = cart[id];
 
 			const productCard = document.createElement('div');
-			productCard.className = 'flex justify-between items-center border-bottom';
+			productCard.className = 'product-card';
 			const descreaseDisabled = product.quantity === 1 ? 'disabled' : '';
 			productCard.innerHTML = `
+			<a href="details.html?id=${id}">
 			<img width="40px" src=${product.imageUrl} />
-				<div class="w-300 h-40 flex gap-20 justify-between items-center">
-            	<span>${product.name}</span>
-            	<div>
-						<button data-id=${id} ${descreaseDisabled} class="decrease">-</button>
-						<span>${product.quantity}</span>
-						<button data-id=${id} class="increase">+</button>
+			</a>
+				<div class="product-details">
+            	<a href="details.html?id=${id}">
+				<span>${product.name}</span>
+				</a>
+            	<div class="quantity-control">
+					<button data-id=${id} ${descreaseDisabled} class="decrease">-</button>
+					<span>${product.quantity}</span>
+					<button data-id=${id} class="increase">+</button>
             	</div>
 				</div>
-				<span>${(product.price * product.quantity).toFixed(2)} lei</span>
+				<span class="product-price">${(product.price * product.quantity).toFixed(2)} lei</span>
 				<button data-id=${id} class="btn delete"><i class="fa-solid fa-trash"></i></button>
         	`;
 			total = total + product.price * product.quantity;

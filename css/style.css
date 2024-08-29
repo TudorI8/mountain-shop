@@ -104,9 +104,18 @@ body {
     border-radius: 10px;
 }
 
+.btn {
+    background-color: transparent;
+    border: none;
+}
+
 .product-image, 
 .btn {
     cursor: pointer;
+}
+
+.btn i {
+    font-size: 18px;
 }
 
 .add-to-cart {
@@ -126,6 +135,28 @@ body {
     height: 40px;
 }
 
-.border-bottom {
-    border-bottom: 1px solid gray;
+.filters {
+    padding-top: 50px;
+    gap: 20px;
+    max-width: 250px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.category-filter,
+.manufacturer-filter,
+.filter-reset {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.category-filter:hover,
+.manufacturer-filter:hover,
+.filter-reset:hover {
+    background-color: #B2C2A1;
 }
