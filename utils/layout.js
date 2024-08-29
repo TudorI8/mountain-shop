@@ -12,7 +12,7 @@ export function mapProductToCard(product) {
                 data-name="${product.name}"
                 data-image="${product.imageUrl}">
                <i class="fa-solid fa-cart-shopping"></i>
-            </button>
+               </button>
 				</div>
       		`;
 }
