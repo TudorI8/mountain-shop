@@ -1,4 +1,11 @@
-document.addEventListener('DOMContentLoaded', showProductDetails);
+import { showNotification,
+		updateCartBadge,
+ } from '../utils/layout.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+    showProductDetails();
+    updateCartBadge();
+});
 
 const url = 'https://668d7a88099db4c579f318c8.mockapi.io/products';
 
@@ -30,4 +37,28 @@ async function showProductDetails() {
 		</div>
 		</div>
 	</div>`;
+
+	const addToCartButton = document.querySelector('.add-to-cart');
+	addToCartButton.addEventListener('click', () => {
+		const productId = addToCartButton.getAttribute('data-id');
+		const price = parseFloat(addToCartButton.getAttribute('data-price'));
+		const name = addToCartButton.getAttribute('data-name');
+		const imageUrl = addToCartButton.getAttribute('data-image');
+
+		let cart = JSON.parse(localStorage.getItem('cart')) || {};
+		if (cart[productId]) {
+			cart[productId].quantity += 1;
+		} else {
+			cart[productId] = {
+				quantity: 1,
+				price: price,
+				name: name,
+				imageUrl: imageUrl,
+			};
+		}
+
+		localStorage.setItem('cart', JSON.stringify(cart));
+		showNotification(`The product ${name} has been added to the cart!`);
+		updateCartBadge();
+	});
 }

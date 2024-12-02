@@ -22,11 +22,17 @@
                     <a href="../index.html">Mountain Shop</a>
                 </h3>
             </div>
-            <div class="nav-links gap-10">
+            <div class="nav-links flex gap-10">
                 <a href="admin.html">Admin</a>
-                <a href="cart.html">Cart</a>
+                <div class="cart-icon">
+                    <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <div class="cart-badge" id="cart-badge"></div>
+                </div>
             </div>
         </div>
+        <div class="notification" id="notification"></div>
         <div class="main"></div>
         <div class="footer"></div>
         <script type="module" src="../js/details.js"></script>

@@ -1,7 +1,13 @@
 import { getAllProducts } from './api/products.js';
-import { mapProductToCard } from './utils/layout.js';
+import { mapProductToCard,
+		showNotification,
+		updateCartBadge,
+} from './utils/layout.js';
 
-document.addEventListener('DOMContentLoaded', displayAllProducts);
+document.addEventListener('DOMContentLoaded', () => {
+    displayAllProducts();
+    updateCartBadge();
+});
 const mainContainer = document.querySelector('.main');
 const categoryFilterContainer = document.querySelector('.category');
 const manufacturerFilterContainer = document.querySelector('.manufacturer');
@@ -32,6 +38,8 @@ async function displayAllProducts() {
 			}
 
 			localStorage.setItem('cart', JSON.stringify(cart));
+			showNotification(`The product ${name} has been added to the cart!`);
+			updateCartBadge();
 		});
 	});
 

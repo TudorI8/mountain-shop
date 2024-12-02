@@ -5,14 +5,19 @@ import {
 	addNewProduct,
 	updateProduct,
 } from '../api/products.js';
-import { mapProductToAdminTableRow } from '../utils/layout.js';
+import { mapProductToAdminTableRow,
+		updateCartBadge,
+ } from '../utils/layout.js';
 
 // load products in table at page loading
 const productsTableBody = document
 	.getElementById('products-table')
 	.querySelector('tbody');
 
-document.addEventListener('DOMContentLoaded', displayAllProducts);
+document.addEventListener('DOMContentLoaded', () => {
+    displayAllProducts();
+    updateCartBadge();
+});
 
 async function displayAllProducts() {
 		const products = await getAllProducts();
