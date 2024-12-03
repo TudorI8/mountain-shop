@@ -1,12 +1,15 @@
 import { getAllProducts } from './api/products.js';
-import { mapProductToCard,
-		showNotification,
-		updateCartBadge,
-} from './utils/layout.js';
+import { mapProductToCard } from './utils/layout.js';
+import { updateCartBadge,
+		 handleAddToCart,
+		 getProductStock,
+		 updateAddToCartButtons,
+} from './utils/helpers.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     displayAllProducts();
     updateCartBadge();
+	updateAddToCartButtons();
 });
 const mainContainer = document.querySelector('.main');
 const categoryFilterContainer = document.querySelector('.category');
@@ -14,10 +17,19 @@ const manufacturerFilterContainer = document.querySelector('.manufacturer');
 
 async function displayAllProducts() {
 	const products = await getAllProducts();
+
+	let currentStock = JSON.parse(localStorage.getItem('stock')) || {};
+    products.forEach((product) => {
+        if (!(product.id in currentStock)) {
+            currentStock[product.id] = Number(product.stock);
+        }
+    });
+    localStorage.setItem('stock', JSON.stringify(currentStock));
+
 	mainContainer.innerHTML = products.map(mapProductToCard).join(' ');
+	updateAddToCartButtons();
 
 	const addToCartButtons = document.querySelectorAll('.add-to-cart');
-
 	addToCartButtons.forEach((button) => {
 		button.addEventListener('click', () => {
 			const productId = button.getAttribute('data-id');
@@ -25,21 +37,13 @@ async function displayAllProducts() {
 			const name = button.getAttribute('data-name');
 			const imageUrl = button.getAttribute('data-image');
 
-			let cart = JSON.parse(localStorage.getItem('cart')) || {};
-			if (cart[productId]) {
-				cart[productId].quantity += 1;
-			} else {
-				cart[productId] = {
-					quantity: 1,
-					price: price,
-					name: name,
-					imageUrl: imageUrl,
-				};
-			}
+			handleAddToCart(productId, { price, name, imageUrl });
 
-			localStorage.setItem('cart', JSON.stringify(cart));
-			showNotification(`The product ${name} has been added to the cart!`);
-			updateCartBadge();
+            const updatedStock = getProductStock(productId);
+            if (updatedStock <= 0) {
+                button.disabled = true;
+                button.textContent = 'Out of Stock';
+            }
 		});
 	});
 

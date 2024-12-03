@@ -42,26 +42,3 @@ export function mapProductToAdminTableRow(product) {
             </tr>
             `;
 }
-
-export function showNotification(message) {
-    const notification = document.getElementById('notification');
-    notification.textContent = message;
-    notification.style.display = 'block';
-
-    setTimeout(() => {
-        notification.style.display = 'none';
-    }, 3000);
-}
-
-export function updateCartBadge() {
-    const cart = JSON.parse(localStorage.getItem('cart')) || {};
-    const totalItems = Object.values(cart).reduce((sum, item) => sum + item.quantity, 0);
-    const badge = document.getElementById('cart-badge');
-
-    if (totalItems > 0) {
-        badge.textContent = totalItems;
-        badge.style.display = 'inline-block';
-    } else {
-        badge.style.display = 'none';
-    }
-}

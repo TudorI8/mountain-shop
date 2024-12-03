@@ -1,13 +1,11 @@
-import {
-	getAllProducts,
-	getProductById,
-	deleteProduct,
-	addNewProduct,
-	updateProduct,
+import { getAllProducts,
+		 getProductById,
+		 deleteProduct,
+		 addNewProduct,
+		 updateProduct,
 } from '../api/products.js';
-import { mapProductToAdminTableRow,
-		updateCartBadge,
- } from '../utils/layout.js';
+import { mapProductToAdminTableRow } from '../utils/layout.js';
+import { updateCartBadge } from '../utils/helpers.js';
 
 // load products in table at page loading
 const productsTableBody = document
