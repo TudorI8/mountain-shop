@@ -71,7 +71,7 @@
   },
   {
     "name": "Carabiniera D Asymm 40kn",
-    "imageUrl": "https://cdn.shoepping.at/medias/sys_master/cloud-images-1621-21070322/hc7/h13/14805485912094/1200Wx1200H-TN11AK-I/austrialpin-d-asymm-screw-carabiner-1681610518632-992.jpeg",
+    "imageUrl": "https://authoritiesgear.com/pictures/austrialpin_karabiineri_carabinerpng-0644a5cf76ceb4.png",
     "price": 129.9,
     "details": "Carabiniera rezistenta din otel inoxidabil cu screwlock. Dimensiunea sa permite o operare prietenoasa chiar si atunci cand purtati manusi.",
     "category": "Alpinism",
@@ -91,12 +91,12 @@
   },
   {
     "name": "Carabiniera Smart HMS",
-    "imageUrl": "https://sportano.ro/img/986c30c27a3d26a3ee16c136f92f4ff5/7/6/7613357873819_20-jpg/mammut-smart-hms-2-0-screwgate-carabiner-gri-583294.jpg",
+    "imageUrl": "https://www.bfgcdn.com/600_600_90/323-0265-0211/mammut-smart-hms-20-hms-carabiner.jpg",
     "price": 79.9,
     "details": "Carabiniera HMS cu mecanism de siguranta pentru a preveni incarcatura laterala.",
     "category": "Alpinism",
     "manufacturer": "Mammut",
-    "stock": "30",
+    "stock": 30,
     "id": "10"
   },
   {

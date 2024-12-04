@@ -33,6 +33,7 @@ const imageUrlInput = document.getElementById('image-url');
 const detailsInput = document.getElementById('details');
 const categoryInput = document.getElementById('category');
 const manufacturerInput = document.getElementById('manufacturer');
+const stockInput = document.getElementById('stock');
 
 const saveProductButton = document.getElementById('save-btn');
 let editMode = false;
@@ -47,7 +48,10 @@ async function saveProduct(event) {
 		name: nameInput.value,
 		price: Number(priceInput.value),
 		imageUrl: imageUrlInput.value,
+		stock: Number(stock.value),
 		details: detailsInput.value,
+		category: categoryInput.value,
+        manufacturer: manufacturerInput.value,
 	};
 		if (editMode) {
 		const editedProduct = await updateProduct(
@@ -89,6 +93,7 @@ function editProduct(id) {
 		nameInput.value = product.name;
 		priceInput.value = product.price;
 		imageUrlInput.value = product.imageUrl;
+		stockInput.value = product.stock;
 		detailsInput.value = product.details;
         categoryInput.value = product.category;
         manufacturerInput.value = product.manufacturer;

@@ -1,5 +1,11 @@
+import { getCart,
+         saveCart,
+         getStock,
+         saveStock,
+} from './storage.js';
+
 export function updateCartBadge() {
-    const cart = JSON.parse(localStorage.getItem('cart')) || {};
+    const cart = getCart();
     const totalItems = Object.values(cart).reduce((sum, item) => sum + item.quantity, 0);
     const badge = document.getElementById('cart-badge');
 
@@ -22,8 +28,8 @@ function showNotification(message) {
 }
 
 export function handleAddToCart(productId, { price, name, imageUrl }) {
-    let cart = JSON.parse(localStorage.getItem('cart')) || {};
-    let stock = JSON.parse(localStorage.getItem('stock')) || {};
+    let cart = getCart();
+    let stock = getStock();
 
     stock[productId] = Number(stock[productId]);
 
@@ -45,8 +51,8 @@ export function handleAddToCart(productId, { price, name, imageUrl }) {
 
     stock[productId] -= 1;
 
-    localStorage.setItem('cart', JSON.stringify(cart));
-    localStorage.setItem('stock', JSON.stringify(stock));
+    saveCart(cart);
+    saveStock(stock);
 
     updateAddToCartButtons();
     showNotification(`The product ${name} has been added to the cart!`);
@@ -54,13 +60,13 @@ export function handleAddToCart(productId, { price, name, imageUrl }) {
 }
 
 export function getProductStock(productId) {
-    const stock = JSON.parse(localStorage.getItem('stock')) || {};
+    const stock = getStock();
     return Number(stock[productId] || 0);
 }
 
 export function updateAddToCartButtons() {
     const addToCartButtons = document.querySelectorAll('.add-to-cart');
-    const currentStock = JSON.parse(localStorage.getItem('stock')) || {};
+    const currentStock = getStock();
     
     addToCartButtons.forEach((button) => {
         const productId = button.getAttribute('data-id');
