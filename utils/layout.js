@@ -1,7 +1,9 @@
 export function mapProductToCard(product) {
 	return `
 				<div class="product-card flex-col gap-20 items-center justify-between">
-					<h3 class="card-title">${product.name}</h3>
+               <a href="pages/details.html?id=${product.id}">
+					   <h3 class="card-title">${product.name}</h3>
+               </a>
                <a href="pages/details.html?id=${product.id}">
                   <img src=${product.imageUrl} width="150px"/>
                </a>
@@ -20,13 +22,18 @@ export function mapProductToCard(product) {
 export function mapProductToAdminTableRow(product) {
 	return `
             <tr>
-               <td>${product.name}</td>
+               <td>
+                  <a href="details.html?id=${product.id}">
+                     ${product.name}
+                  </a>
+               </td>
                <td>${product.price} lei</td>
                <td>
                   <a href="details.html?id=${product.id}">
                      <img src="${product.imageUrl}" width="50px" />
                   </a>
                </td>
+               <td>${product.stock} units</td>
                <td>
                   <button class="btn edit-${product.id}">
                      <i class="fa-solid fa-pen-to-square">

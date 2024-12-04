@@ -5,6 +5,9 @@ import { updateCartBadge,
 		 getProductStock,
 		 updateAddToCartButtons,
 } from './utils/helpers.js';
+import { getStock,
+		 saveStock,
+} from './utils/storage.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     displayAllProducts();
@@ -18,13 +21,13 @@ const manufacturerFilterContainer = document.querySelector('.manufacturer');
 async function displayAllProducts() {
 	const products = await getAllProducts();
 
-	let currentStock = JSON.parse(localStorage.getItem('stock')) || {};
+	let currentStock = getStock();
     products.forEach((product) => {
         if (!(product.id in currentStock)) {
             currentStock[product.id] = Number(product.stock);
         }
     });
-    localStorage.setItem('stock', JSON.stringify(currentStock));
+    saveStock(currentStock);
 
 	mainContainer.innerHTML = products.map(mapProductToCard).join(' ');
 	updateAddToCartButtons();
